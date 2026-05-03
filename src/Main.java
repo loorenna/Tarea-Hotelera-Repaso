@@ -54,7 +54,7 @@ public class Main {
             System.out.println("Agregar otra reserva(si/no): ");
             opcion=sc.nextLine();
         }while (opcion.equalsIgnoreCase("si"));
-        System.out.println("--------------------------------");
+        System.out.println("---------------REPORTE------------------");
         for (Habitacion r:reserva){
             r.mostrarDetalle();
             r.generarFactura();

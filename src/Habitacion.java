@@ -80,9 +80,6 @@ abstract class Habitacion {
         }
     }
 
-    public String getDisponible() {
-        return disponible;
-    }
     public double calcularPago(){
         return calcularHospedaje();
     }
